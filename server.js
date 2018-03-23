@@ -123,5 +123,7 @@
 	});
 
 	// listen (start app with node server.js) ======================================
-	app.listen(8080);
+	app.listen(8080,funcion(client){
+		   console.log("new client");
+		   });
 	console.log("App listening on port 8080");
